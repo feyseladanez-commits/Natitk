@@ -1,0 +1,21 @@
+# Environment / secrets
+.env
+
+# Database & runtime data
+storage/*.db
+storage/*.db-wal
+storage/*.db-shm
+storage/documents/*
+!storage/documents/.gitkeep
+storage/receipts/*
+!storage/receipts/.gitkeep
+storage/backups/*
+!storage/backups/.gitkeep
+storage/attachments/*
+!storage/attachments/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
